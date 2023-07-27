@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.item {
+    margin: 10px;
+}
+
+.item-name {
+    display: inline-block;
+    min-width: 200px;
+    text-align: left;
+}
+
+.item-btn {
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.delete-btn,
+.like-btn {
+    margin-left: 10px;
+}
+
+.heart-icon {
+    font-size: 20px;
+    color: #ccc;
+    cursor: pointer;
+    user-select: none;
+}
+
+.heart-icon.liked {
+    color: red;
+}
+.easy{
+    display: flex;
+    background-color: skyblue;
+}
+.hard{
+    width: 250px ;
+    height: 150px ;
+    float: left;
+}
+.diffucult{
+    float left: ;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <img class="hard" src="https://tastesbetterfromscratch.com/wp-content/uploads/2023/06/Pepperoni-Pizza-1.jpg" alt="">
+    <p class="easy">Ingredients
+        1 ball pizza dough (storebought or homemade pizza dough, let rise on a counter 2+ hours in advance)
+        1 tbsp flour
+        1 tsp olive oil
+        1.5 cup pizza sauce
+        2 cups mozzarella cheese (shredded)</p>
+    <title>Pizza Restaurant</title>
+    <link rel="stylesheet" href="youssef.css">
+</head>
+<body>
+    <h1>Pizza Restaurant Menu</h1>
+    <form id="pizzaOrderForm">
+        <div class="item">
+            <span class="item-name">Pepperoni Pizza</span>
+            <button type="button" class="item-btn" onclick="decrementItem('pepperoni')">-</button>
+            <input type="number" id="pepperoni" name="pepperoni" min="0" value="0">
+            <button type="button" class="item-btn" onclick="incrementItem('pepperoni')">+</button>
+            <button type="button" class="delete-btn" onclick="deleteItem('pepperoni')">Delete</button>
+            <button type="button" class="like-btn" onclick="toggleLike('pepperoni')">Like</button>
+            <span class="heart-icon" id="pepperoniHeart">&hearts;</span>
+        </div>
+        <!-- Add more items here -->
+    </form>
+    <div id="totalPrice">Total Price: $0.00</div>
+    <script src="mounir.js"></script>
+    <h1 class="difficult">Prix pour un pizza est  $10.99</h1>
+</body>
+</html>
